@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var greeting = React.createElement('h1', {}, 'Hello, World!');
-
 ReactDOM.render(
-  greeting,
+  <div>
+    <h1>Hello World</h1>
+    <p>Hi these are words!</p>
+  </div>,
   document.getElementById('react-app-root')
-)
+);
