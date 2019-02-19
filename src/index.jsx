@@ -1,10 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
-  <div>
-    <h1>Hello World</h1>
-    <p>Hi these are words!</p>
-  </div>,
-  document.getElementById('react-app-root')
-);
+//Import Components
+import App from './components/app';
+
+// ReactDOM.render(
+//   <App/>
+//   ,
+//   document.getElementById('react-app-root')
+// );
+
+const render = (Component) => {
+  ReactDOM.render(
+    <BrowserRouter>
+      <Component/>
+    </BrowserRouter>
+  , document.getElementById('react-app-root'));
+}
+
+render(App);

@@ -1,5 +1,5 @@
 {
-  "name": "React-Fundamentals",
+  "name": "React-Template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -42,7 +42,9 @@
     "bootstrap": "^4.2.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.6",
+    "prop-types": "^15.7.2",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-router-dom": "^4.3.1"
   }
 }

@@ -15,7 +15,8 @@ module.exports = {
   devServer: {
     contentBase: './dist',
     host: "localhost",
-    port: 8081
+    port: 8081,
+    historyApiFallback: true
   },
   plugins: [
     new HtmlWebpackPlugin({
